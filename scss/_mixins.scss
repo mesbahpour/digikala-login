@@ -1,0 +1,6 @@
+@mixin textStyle ($clr) {
+    background-color: red;
+    color: $clr;
+    font-size: 200px;
+    cursor: pointer;
+}

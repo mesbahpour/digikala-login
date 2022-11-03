@@ -1,0 +1,87 @@
+@font-face{
+	font-family: 'yekan';
+	src:url(font/Yekan.eot),url(font/Yekan.woff),url(font/Yekan.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'yekan';
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    direction: rtl;
+    margin: 10px;
+}
+
+form {
+    border: 1px solid #e0e0e2;
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+form img{
+    display: block;
+    margin: 20px auto 0;
+    width: 40%;
+}
+
+.title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #0c0c0c;
+    margin-bottom: 10px;
+}
+
+.txt {
+    font-size: 14px;
+    color: #424750;
+}
+
+.txt:last-child {
+    text-align: center;
+}
+
+form a {
+    text-decoration: none;
+    color: #398eb4;
+}
+
+input {
+    width: 100%;
+    outline: none;
+    border-radius:10px;
+    height: 50px;
+    border: none;
+    margin: 20px 0;
+}
+
+input[type = text] {
+    border:1px solid #398eb4;
+    outline: none;
+    text-indent: 10px;
+    caret-color: #398eb4;
+}
+
+input[type = button] {
+    background-color: #ef4056;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* 
+@media only screen and (max-width: 768px) {
+   
+    body{
+        background-color: aqua;
+    }
+  } */
